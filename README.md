@@ -42,27 +42,16 @@ The goal of the project is to show how Houdini's node-based procedural workflow 
 - Cameras, lights, and materials prepare the scene for rendering.
 - The project was designed with Karma or another compatible renderer in mind.
 
-## Repository Structure
+## Repository Contents
 
 ```text
 Procedural-Racetrack-Houdini/
 ├── README.md
-├── racetrack.hipnc
-├── geo/
-│   ├── barrier.bgeo
-│   ├── firtreeA.bgeo
-│   ├── firtreeB.bgeo
-│   └── tire.bgeo
 └── docs/
     └── PROJECT-REPORT.md
 ```
 
-## How to Open
-
-1. Install a compatible version of **SideFX Houdini Apprentice / Non-Commercial**.
-2. Open `racetrack.hipnc`.
-3. Keep the `geo/` folder with the project so the File nodes can resolve the geometry assets.
-4. If the original local paths differ, repoint the corresponding File nodes to the assets inside `geo/`.
+The original Houdini source package also contains `racetrack.hipnc` plus reusable geometry assets (`barrier.bgeo`, `firtreeA.bgeo`, `firtreeB.bgeo`, and `tire.bgeo`). Those are binary Houdini files and are kept separately from the GitHub-readable documentation currently in this repository.
 
 ## Skills Demonstrated
 
